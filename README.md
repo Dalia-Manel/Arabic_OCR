@@ -8,7 +8,7 @@ The goal of this project is to create a deep learning–based pipeline that can 
 
 The project explores and fine-tunes different models for OCR:
 
-CNN + Transformer architectures (e.g., ViT, Donut, Nougat) for text recognition.
+CNN + Transformer architectures for text recognition.
 
 Language models (GPT-2) for post-processing and extracting key attributes from recognized text.
 
@@ -22,7 +22,6 @@ Text Detection & Recognition – converting images of Arabic text into digital t
 
 Postprocessing – error correction and attribute extraction using language models.
 
-Evaluation – using Character Error Rate (CER) and Word Error Rate (WER).
 
 ## Datasets
 
