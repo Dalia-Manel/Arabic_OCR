@@ -7,31 +7,42 @@ The goal of this project is to create a deep learning–based pipeline that can 
 ## Methodology
 
 The project explores and fine-tunes different models for OCR:
+
 CNN + Transformer architectures (e.g., ViT, Donut, Nougat) for text recognition.
+
 Language models (GPT-2) for post-processing and extracting key attributes from recognized text.
+
 Tesseract OCR fine-tuning as a baseline.
 
 ### Pipeline Stages:
 
 Preprocessing – normalization, resizing, and enhancement of input images.
+
 Text Detection & Recognition – converting images of Arabic text into digital text.
+
 Postprocessing – error correction and attribute extraction using language models.
+
 Evaluation – using Character Error Rate (CER) and Word Error Rate (WER).
 
 ## Datasets
 
 This project makes use of open-source datasets, including:
+
 KHATT dataset
+
 MohamedRashad/arabic-img2md
 
 ## Applications
 
 Digitization of handwritten and printed Arabic documents.
+
 Making archives and manuscripts searchable.
+
 Assisting in data extraction from real-world Arabic texts.
 
 
 ## Evaluation Metrics
 
 Word Error Rate (WER)
+
 Character Error Rate (CER)
