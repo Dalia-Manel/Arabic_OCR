@@ -1,4 +1,8 @@
-# Project Overview
+# Arabic OCR — Recognition of Handwritten & Printed Arabic Text
+
+**Author: Dalia Manel Akkouchi**
+
+## Overview
 
 This project focuses on building an OCR (Optical Character Recognition) system for Arabic text, with support for both printed and handwritten documents. Arabic OCR is a challenging task due to the cursive nature of the script, context-dependent letter shapes, diacritics, and variability in handwriting styles.
 
@@ -42,6 +46,16 @@ Assisting in data extraction from real-world Arabic texts.
 
 ## Evaluation Metrics
 
-Word Error Rate (WER)
+- **Word Error Rate (WER)**
+- **Character Error Rate (CER)**
 
-Character Error Rate (CER)
+## Repository Contents
+
+This repository gathers the research notebooks explored during the project:
+
+- `préetraitement+_tesseract.ipynb` — image preprocessing and a Tesseract OCR baseline.
+- `resnet-with-freezing-gpt-v3.ipynb` — ResNet visual encoder (with layer freezing) combined with a GPT decoder.
+- `gpt-vit.ipynb` — Vision Transformer (ViT) encoder + GPT for end-to-end recognition.
+- `LLM.ipynb` — language-model post-processing (error correction and attribute extraction).
+
+> **Note:** These are exploratory research notebooks (training & experiments). Running them requires the datasets listed above and a GPU environment such as Kaggle or Google Colab.
